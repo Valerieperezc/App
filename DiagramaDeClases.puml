@@ -1,0 +1,69 @@
+@startuml
+class calorimetria {
++tonos : calorimetria 
+mostrarcalorimetria()
+}
+class horaevento{
++tipo:string
++mostrarhoras()
+}
+class tipomaquillajeh{
++social :select
++artistico :select
++publicitario:select
+
+}
+
+class tipomaquillajem{
++social : select 
++social glam : select
++artistico : select
++publicitario : select
+}
+
+class genero {
++masculino : string 
++femenino : string
+}
+
+class tonopiel{
++blanco:string 
++amarillo :string 
++media clara :string 
++media oscura: string 
++morena :string 
++oscura :string 
+}
+class prototipopiel{
+tipostring:
++mostrarprototipodepiel()
+}
+class estudiante{
++codigoestudiantil:int
+validarcod()
+}
+
+genero-->tipomaquillajeh
+
+tonopiel-->tipomaquillajeh
+
+genero-->tipomaquillajem
+
+tonopiel-->tipomaquillajem
+
+genero-->estudiante
+
+prototipopiel-->tonopiel
+
+tipomaquillajeh-->horaevento
+
+tipomaquillajem-->horaevento
+
+tipomaquillajem-->calorimetria
+
+tipomaquillajeh-->calorimetria
+
+horaevento-->calorimetria
+ 
+tonopiel--> genero
+@enduml
