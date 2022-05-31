@@ -10,5 +10,4 @@ su sección
 * Permite observar el resultado
 
 ## Diagrama de clases
-(https://user-images.githubusercontent.com/98894991/171082139-193477b9-3dda-4bc3-a6b7-7cb236f6f13a.png)
-
+![alt text]![uml](https://user-images.githubusercontent.com/98894991/171082435-22535c29-101e-4318-82e0-c994d1fda053.png)
