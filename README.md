@@ -10,6 +10,4 @@ su sección
 * Permite observar el resultado
 
 ## Diagrama de clases
-&lt;div align=&quot;center&quot;&gt;
-&lt;img src=&quot;dataRM/uml.png&quot; alt=&quot;classDiagram&quot; style=&quot;width: 70%;&quot;/&gt;
-&lt;/div&gt;&lt;br/&gt;
+![alt text](http://url/to/uml.png)
